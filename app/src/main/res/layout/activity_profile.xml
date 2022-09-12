@@ -5,11 +5,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Profile">
+
     <RelativeLayout
         android:id="@+id/anhnen"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:background="@drawable/colorgradi">
+        <LinearLayout
+            android:id="@+id/linkbackpf"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:src="@drawable/ic_baseline_arrow_back_ios_new_24"/>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="20dp"
+                android:text="Back" />
+        </LinearLayout>
     </RelativeLayout>
 
     <LinearLayout
